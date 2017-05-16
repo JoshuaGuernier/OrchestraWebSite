@@ -18,8 +18,7 @@ body    	{
     		padding: 0;
     		overflow: hidden;
     		background-color: black;
-			z-index: 998;
-			
+			z-index: 998;	
 }
 .topbar li 	{ 
 			display: inline;
@@ -63,6 +62,19 @@ body    	{
             box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
             font-family: sans-serif;
 
+}
+.content p  {
+			align-content: center;
+			top: 20px;
+			font-size: 100%;
+			line-height: 180%;
+			text-align: justify;
+			padding-left: 3%;
+			padding-right: 3%;
+}
+.content h1 {
+			font-size: 150%;
+			padding-left: 3%;
 }
 .footer	{
 			background-color: black;
