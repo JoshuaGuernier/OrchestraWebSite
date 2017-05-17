@@ -191,3 +191,61 @@ body    	{
 @media only screen and (max-width: 300px) {
     .prev, .next,.text {font-size: 11px}
 }
+/* This is to automated the show/hide infromation on the about page */
+.panel, .flip {
+    padding: 5px;
+    background-color: white;
+}
+.panel {
+    padding: 50px;
+    display: none;
+}.panel2, .flip2 {
+    padding: 5px;
+    background-color: white;
+}
+.panel2 {
+    padding: 50px;
+    display: none;
+}.panel3, .flip3 {
+    padding: 5px;
+    background-color: white;
+}
+.panel3 {
+    padding: 50px;
+    display: none;
+}.panel4, .flip4 {
+    padding: 5px;
+    background-color: white;
+}
+.panel4 {
+    padding: 50px;
+    display: none;
+}.panel5, .flip5 {
+    padding: 5px;
+    background-color: white;
+}
+.panel5 {
+    padding: 50px;
+    display: none;
+}.panel6, .flip6 {
+    padding: 5px;
+    background-color: white;
+}
+.panel6 {
+    padding: 50px;
+    display: none;
+}.panel7, .flip7 {
+    padding: 5px;
+    background-color: white;
+}
+.panel7 {
+    padding: 50px;
+    display: none;
+}.panel8, .flip8 {
+    padding: 5px;
+    background-color: white;
+}
+.panel8 {
+    padding: 50px;
+    display: none;
+}
