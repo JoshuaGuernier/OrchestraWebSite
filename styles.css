@@ -76,6 +76,11 @@ body    	{
 			font-size: 150%;
 			padding-left: 3%;
 }
+.floatimg		{
+			float: left;
+			padding-right: 10px;
+			box-sizing: inherit;
+}
 .footer	{
 			background-color: black;
 			width: 100%;
