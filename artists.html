@@ -1,36 +1,96 @@
 <!doctype html>
 <html>
 <head>
-<link rel="shortcut icon" type="image/x-icon" href="ICONLOCATION" />
-<link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
-<meta charset="utf-8">
-<title></title>
+	<link rel="shortcut icon" type="image/x-icon" href="ICONLOCATION" />
+	<link rel="stylesheet" type="text/css" href="artist.css" media="screen" />
+	<meta charset="utf-8">
+	<title></title>
 </head>
 
 <body class="body">
 <div class="topbar">
-		<li><a href="index.html">Home</a></li>
-		<li><a href="about.html">About Us</a></li>
-		<li><a href="events.html">Events</a></li>
-		<li><a class="active" href="artists.html">Artists</a></li>
-		<li><a href="support.html">Support Us</a></li>
+	<li><a class="active" href="index.html">Home</a></li>
+	<li><a href="about.html">About Us</a></li>
+	<li><a href="events.html">Events</a></li>
+	<li><a href="artists.html">Artists</a></li>
+	<li><a href="support.html">Support Us</a></li>
 </div>
-<div>
 
+<div class="contentwrapper">
+	<!--Stuff goes in here-->
 
+	<div class="midcontent">
+		<div>
+			<h2>Left</h2>
+			<p>
+				<img src="images/placeholder.jpg" width="200" height="200" alt="Featured"/>
+				There are 800 million players worldwide who play volleyball at least once a week. Volleyball is a sport that is safe, fun and does not require extreme fitness. Since you don’t have to move around the court too much, it’s great for people who want a low-impact sport that will help them get fit without pushing them to their limit. For those who are a bit more competitive, the sport is fantastic because games can be really exciting and intense, but there’s always a net between you and your opponents.
+				Beach volleyball is suitable for people of all ages, and men and women alike.
+				Anyone considering starting a new sport or exercise program should see their doctor first.
+			</p>
+		</div>
+	</div>
 
+	<div class="leftcontent">
+		<div>
+			<h2>Centre</h2>
+			<p>
+				<img src="images/placeholder.jpg" width="200" height="200" alt="Featured"/>
+				There are 800 million players worldwide who play volleyball at least once a week. Volleyball is a sport that is safe, fun and does not require extreme fitness. Since you don’t have to move around the court too much, it’s great for people who want a low-impact sport that will help them get fit without pushing them to their limit. For those who are a bit more competitive, the sport is fantastic because games can be really exciting and intense, but there’s always a net between you and your opponents.
+				Beach volleyball is suitable for people of all ages, and men and women alike.
+				Anyone considering starting a new sport or exercise program should see their doctor first.
+			</p>
+		</div>
+	</div>
 
-
-
+	<div class="rightcontent">
+		<div>
+			<h2>Right</h2>
+			<p>
+				<img src="images/placeholder.jpg" width="200" height="200" alt="Featured"/>
+				There are 800 million players worldwide who play volleyball at least once a week. Volleyball is a sport that is safe, fun and does not require extreme fitness. Since you don’t have to move around the court too much, it’s great for people who want a low-impact sport that will help them get fit without pushing them to their limit. For those who are a bit more competitive, the sport is fantastic because games can be really exciting and intense, but there’s always a net between you and your opponents.
+				Beach volleyball is suitable for people of all ages, and men and women alike.
+				Anyone considering starting a new sport or exercise program should see their doctor first.
+			</p>
+		</div>
+	</div>
 
 </div>
+
 <footer class="footer">
 	<p>Phone: 	61 7 4722 2789</p>
-	<p>	Barrier Reef Orchestra
-		PO Box 576
-		Townsville Qld 4810</p>
+	<p>Barrier Reef Orchestra</p>
+	<p>PO Box 576</p>
+	<p>Townsville Qld 4810</p>
 	<p>Email:<a href="http://brotownsville@gmail.com">brotownsville@gmail.com</a></p>
 	<p>Copyright &copy; North Queensland Ensembles Inc. 2017 </p>
 </footer>
+
+<script>
+	var slideIndex = 1;
+	showSlides(slideIndex);
+	function plusSlides(n) {
+		showSlides(slideIndex += n);
+	}
+	function currentSlide(n) {
+		showSlides(slideIndex = n);
+	}
+	function showSlides(n) {
+		var i;
+		var slides = document.getElementsByClassName("Slides");
+		var dots = document.getElementsByClassName("dot");
+		if (n > slides.length) {slideIndex = 1}
+		if (n < 1) {slideIndex = slides.length}
+		for (i = 0; i < slides.length; i++) {
+			slides[i].style.display = "none";
+		}
+		for (i = 0; i < dots.length; i++) {
+			dots[i].className = dots[i].className.replace(" active", "");
+		}
+		slides[slideIndex-1].style.display = "block";
+		dots[slideIndex-1].className += " active";
+	}
+</script>
+
 </body>
 </html>
