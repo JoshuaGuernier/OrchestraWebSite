@@ -72,9 +72,40 @@ body    	{
 			padding-left: 3%;
 			padding-right: 3%;
 }
+.content a{
+			text-decoration: none;
+			font-size: 120%;
+			color: black
+}
 .content h1 {
 			font-size: 150%;
 			padding-left: 3%;
+}
+.floatimg		{
+			float: left;
+			padding-right: 10px;
+			box-sizing: inherit;
+}
+.announcements	{
+			background: white;
+			position: static; 
+			overflow: visible; 
+			background-color: white;
+			margin-top: 3%;
+			margin-bottom: 1%;
+			margin-left: 10%;
+			margin-right: 10%;
+			padding-right: 3%;
+			display: table;
+			font-size: 120%;
+			line-height: 100%;
+			width: 80%;
+			border: 2px solid black;
+    		border-radius: 5px;
+			-webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+			-moz-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+			box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+			font-family: sans-serif;
 }
 .footer	{
 			background-color: black;
@@ -189,86 +220,58 @@ body    	{
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
-    .prev, .next,.text {font-size: 11px}
+	.prev, .next,.text {font-size: 11px}}
+.panel {
+    padding: 50px;
+    display: none;
+}.panel2, .flip2 {
+    padding: 5px;
+    background-color: white;
 }
-
-/** Alan Bio **/
-
-			
-.Alan_t { margin-bottom: 30px;
+.panel2 {
+    padding: 50px;
+    display: none;
+}.panel3, .flip3 {
+    padding: 5px;
+    background-color: white;
 }
-
-.Alan_IB { text-align: left;
+.panel3 {
+    padding: 50px;
+    display: none;
+}.panel4, .flip4 {
+    padding: 5px;
+    background-color: white;
 }
-
-.Orchestra { text-align: center;
-			background-color: black;
-			color: white;
-			margin: 50px 0px 20px 0px;
+.panel4 {
+    padding: 50px;
+    display: none;
+}.panel5, .flip5 {
+    padding: 5px;
+    background-color: white;
 }
-
-
-
-
-about { margin: 0px 70px 20px 70px;
+.panel5 {
+    padding: 50px;
+    display: none;
+}.panel6, .flip6 {
+    padding: 5px;
+    background-color: white;
 }
-
-
-
-
-/** Orchestra members page **/
-
-.o_members { text-align: center;
-			background-color: black;
-			color: white;
-			margin: 40px 0px 20px 0px;
+.panel6 {
+    padding: 50px;
+    display: none;
+}.panel7, .flip7 {
+    padding: 5px;
+    background-color: white;
+}
+.panel7 {
+    padding: 50px;
+    display: none;
+}.panel8, .flip8 {
+    padding: 5px;
+    background-color: white;
+}
+.panel8 {
+    padding: 50px;
+    display: none;
+}
 	
-	
-	
-}
-
-
-
-.members_orchestra { margin: 20px;
-}
-
-
-
-
-.members a { text-decoration: none;
-			color: black;
-}
-
-.members_orchestra a{ text-decoration: none;
-						color: black;
-}
-
-
-img { float: left;
-			padding-right: 10px;
-			box-sizing: inherit;
-
-
-}
-
-
-.content { background: white;
-			position: static; 
-			overflow: visible; 
-			background-color: white;
-			margin-top: 3%;
-			margin-bottom: 1%;
-			margin-left: 10%;
-			margin-right: 10%;
-			padding-right: 3%;
-			display: table;
-			font-size: 120%;
-			line-height: 100%;
-			width: 80%;
-			border: 2px solid black;
-    		border-radius: 5px;
-			-webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
-			-moz-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
-			box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
-			font-family: sans-serif;
-}
