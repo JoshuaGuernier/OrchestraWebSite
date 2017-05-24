@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+body {
+    background-color: white;
+}
+.topbar	{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    z-index: 998;
+}
+.topbar li 	{
+    display: inline;
+}
+.topbar li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 12px 13px;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.topbar li a:hover {
+    background-color: darkblue;
+}
+.topbar li a.active {
+    background-color: blue;
+    color: white;
+}
+.wrapper {
+    height: auto;
+    width: 80%;
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3%;
+    background: white;
+}
+.floatdivleft {
+    display: inline-block;
+    float: left;
+    width: 60%;
+}
+.floatdivright {
+    display: inline-block;
+    float: right;
+    width: 30%;
+}
+.contentbox {
+    height: auto;
+    width: auto;
+    margin-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    background: white;
+    vertical-align: bottom;
+    border: 2px solid black;
+    border-radius: 5px;
+    -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    font-family: sans-serif;
+}
+.contentbox h2 {
+    text-align: center;
+}
+.contentbox img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1%;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.footer	{
+    background-color: black;
+    width: 99%;
+    height: 120px;
+    padding-top: 10px;
+    padding-left: 1%;
+    margin: 0;
+    bottom: 0;
+    position: relative;
+    display: table;
+}
+.footer p 	{
+    color: white;
+    line-height: 10%;
+    text-align: left;
+}
