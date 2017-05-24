@@ -207,39 +207,52 @@ body    	{
 			margin: 50px 0px 20px 0px;
 }
 
-/** Guest Conductors page **/
 
 
-.about { margin: 0px 70px 20px 70px;
+
+about { margin: 0px 70px 20px 70px;
 }
 
 
 
 
-.Guest_Conductor { text-align: center;
-					background-color: black;
-					color: white;
-					margin: 50px 0px 20px 0px;
+/** Orchestra members page **/
+
+.o_members { text-align: center;
+			background-color: black;
+			color: white;
+			margin: 40px 0px 20px 0px;
+	
+	
+	
 }
 
-.guest_co a { text-decoration: none;
+
+
+.members_orchestra { margin: 20px;
+}
+
+
+
+
+.members a { text-decoration: none;
+			color: black;
+}
+
+.members_orchestra a{ text-decoration: none;
 						color: black;
 }
 
 
-.guest_conductors { text-align: center;
-					background-color: black;
-					color: white;
-					margin: 50px 0px 20px 0px;
-}
-
-
-img {float: left;
+img { float: left;
 			padding-right: 10px;
 			box-sizing: inherit;
+
+
 }
 
-.content {  background: white;
+
+.content { background: white;
 			position: static; 
 			overflow: visible; 
 			background-color: white;
