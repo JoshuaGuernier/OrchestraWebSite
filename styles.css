@@ -207,21 +207,7 @@ body    	{
 			margin: 50px 0px 20px 0px;
 }
 
-.about_alan { margin: 0px 70px 20px 70px;
-
-}
-
-.about_carol { margin: 0px 70px 20px 70px;
-}
-
-/** Artists **/
-
-.artists_people { text-align: center;
-			background-color: black;
-			color: white;
-			margin: 50px 0px 20px 0px;
-
-}
+/** Guest Conductors page **/
 
 
 .about { margin: 0px 70px 20px 70px;
@@ -230,21 +216,23 @@ body    	{
 
 
 
-/** Artists member page **/
-
-.artists_members { text-align: center;
+.Guest_Conductor { text-align: center;
 					background-color: black;
 					color: white;
 					margin: 50px 0px 20px 0px;
-	
+}
+
+.guest_co a { text-decoration: none;
+						color: black;
 }
 
 
-
-
-.members_artists a { text-decoration: none;
-					color: black;
+.guest_conductors { text-align: center;
+					background-color: black;
+					color: white;
+					margin: 50px 0px 20px 0px;
 }
+
 
 img {float: left;
 			padding-right: 10px;
