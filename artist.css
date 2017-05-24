@@ -87,3 +87,17 @@ body {
     line-height: 10%;
     text-align: left;
 }
+
+
+/** Artist Main page **/
+
+.artist { margin: 100px 30px;
+}
+
+.artist a { text-decoration: none;
+					color: black;
+}
+
+.artist a:hover {color: blue;
+					text-decoration: none;
+}
