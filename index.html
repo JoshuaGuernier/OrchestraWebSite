@@ -6,16 +6,25 @@
 <meta charset="utf-8">
 <title></title>
 </head>
-
 <body class="body">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.9";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <div class="topbar">
 		<li><a class="active" href="index.html">Home</a></li>
 		<li><a href="about.html">About Us</a></li>
 		<li><a href="events.html">Events</a></li>
 		<li><a href="artists.html">Artists</a></li>
 		<li><a href="support.html">Support Us</a></li>
+		<li><div class="fb-share-button" data-href="http://nqorchestra.com.au/" data-layout="box_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fnqorchestra.com.au%2F&amp;src=sdkpreparse"><img alt="Facebook" src="icons/external-link-fb.png" border="0">Share</a></div></li>
+		<audio controls><source src="audio/tchaik5movement2.mp3" type="audio/mp3">Your browser does not support the audio element.
+		</audio>	
 </div>
-
 <div class="blackback">
 <div class="slideshow">
 
@@ -42,14 +51,12 @@
 
 </div>
 <br>
-
 <div style="text-align:center">
     <span class="dot" onclick="currentSlide(1)"></span>
     <span class="dot" onclick="currentSlide(2)"></span>
     <span class="dot" onclick="currentSlide(3)"></span>
 </div>
 </div>
-
 <div class="wrapper">
     <table class="container">
         <tr>
@@ -97,7 +104,7 @@
                 <div class="bottom">
                     <div>
                         <h2>Sponsors</h2>
-                            <img src="images/sponsorsresized.png" width=100% height="200" alt="Featured"/>
+                            <img src="images/sponsorsresized.png" width="100%" height="200" alt="Featured"/>
                     </div>
                 </div>
             </td>
