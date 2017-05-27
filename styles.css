@@ -275,3 +275,58 @@ body    	{
     display: none;
 }
 	
+/** Event Page **/
+
+
+h2 { text-align: center;
+}
+
+
+/** next and previous links of evet pages **/
+
+
+
+
+
+.next_concert { background-color: grey;
+				color: white;
+				text-decoration: none;
+				font-size: 38px;
+				float: right;
+				font-family: sans-serif;
+			
+				
+}
+
+
+.next_concert:hover { background-color: darkgrey;
+}
+
+.previous_concert { background-color: grey;
+				color: white;
+				text-decoration: none;
+				font-size: 38px;
+				float: left;
+				font-family: sans-serif;
+}
+
+.previous_concert:hover { background-color: darkgrey;
+}
+
+
+
+/** button page **/
+.button { 	float: right;
+			font-size: 20px;
+			margin-top: 20px;
+			
+		
+}
+
+button:hover { text-decoration: none;
+				background-color: dimgrey;
+				
+}
+
+
+
