@@ -10,6 +10,15 @@ html, body {
 body {
     background-color: white;
 }
+a {
+	text-decoration: none;
+}
+a[href^="//"]:after, 
+a[href^="http://"]:after, 
+a[href^="https://"]:after {
+  content: url(http://upload.wikimedia.org/wikipedia/commons/6/64/Icon_External_Link.png);
+  margin: 0 0 0 5px;
+}
 .topbar	{
     position: fixed;
     top: 0;
@@ -61,7 +70,7 @@ body {
     height: auto;
     width: auto;
     margin-bottom: 1%;
-    padding-left: 2%;
+    padding-left: 4%;
     padding-right: 2%;
     background: white;
     vertical-align: bottom;
@@ -71,6 +80,7 @@ body {
     -moz-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
     font-family: sans-serif;
+	overflow: auto
 }
 .contentbox h2 {
     text-align: center;
@@ -83,8 +93,29 @@ body {
     border: 2px solid black;
     border-radius: 5px;
 }
+.dlowbutton {
+	height: 100px;
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 1em;
+	background-color: gold;
+	border: 2px solid black;
+    border-radius: 5px;
+	text-align: center;
+	text-decoration: none;
+	line-height: 70px;	
+	color: black;
+}
+.dlowbutton:hover {
+	background-color: goldenrod;
+}
+.forms {
+	float: left;
+	width: 50%;
+}
 input[type=text], input[type=number], select {
-    width: 50%;
+    width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -94,9 +125,9 @@ input[type=text], input[type=number], select {
 }
 
 input[type=submit] {
-    width: 50%;
-    background-color: #4CAF50;
-    color: white;
+    width: 100%;
+    background-color: gold;
+    color: black;
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
@@ -105,7 +136,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: goldenrod;
 }
 .footer	{
     background-color: black;
@@ -123,6 +154,3 @@ input[type=submit]:hover {
     line-height: 10%;
     text-align: left;
 }
-@charset "utf-8";
-/* CSS Document */
-
