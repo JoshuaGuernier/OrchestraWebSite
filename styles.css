@@ -474,7 +474,7 @@ input[type=text],input[type=number],select
 }
 .leftcontent, .midcontent, .rightcontent {
 			width: 350px;
-    		margin-top: 10%;
+    		margin-top: 5%;
     		margin-left: 6%;
     		margin-right: 4%;
     		padding-left: 2%;
@@ -498,6 +498,7 @@ input[type=text],input[type=number],select
 			font-family: sans-serif;
 			font-size: 120%;
             line-height: 100%;
+            margin-bottom: 7%;
 }
 /**Footer**/
 .footer	{
