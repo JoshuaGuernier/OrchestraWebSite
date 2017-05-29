@@ -14,34 +14,34 @@ body {
   			-o-background-size: cover;
   			background-size: cover;
 			background-color: #010417;
+			margin: 0;
 }
-.topbar	{
-			position: fixed;
-			top: 0;
-			width: 100%;
-    		margin: 0;
-    		padding: 0;
-    		overflow: hidden;
-    		background-color: black;
-			z-index: 998;	
+ul.topbar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: black;
 }
-.topbar li 	{ 
-			display: inline;
+ul.topbar li {float: left;}
+
+ul.topbar li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
 }
-.topbar li a { 
-			display: inline-block;
-			color: white;
-			text-align: center;
-			padding: 12px 13px;
-			text-decoration: none;
-			font-family: sans-serif;
-}
-.topbar li a:hover {
-			background-color: darkblue;
-}
-.topbar li a.active {
-    		background-color: blue;
-    		color: white;
+
+ul.topbar li a:hover:not(.active) {background-color: darkblue;}
+
+ul.topbar li a.active {background-color: blue;}
+
+ul.topbar li.right {float: right;}
+
+@media screen and (max-width: 600px){
+	ul.topbar li.right,
+	ul.topbar li {float: none;}
 }
 .black {
             background-color: black;
