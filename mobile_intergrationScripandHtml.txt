@@ -1,0 +1,39 @@
+body {margin: 0;}
+
+ul.topbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+\**This it titel bar**\
+<ul class="topbar">
+	<li><a href="index.html">Home</a></li>
+	<li><a href="about.html">About Us</a></li>
+	<li><a href="events.html">Events</a></li>
+	<li><a href="artists.html">Artists</a></li>
+	<li><a href="gallery.html">Gallery</a></li>
+	<li><a class="active" href="support.html">Support Us</a></li>
+</ul>
+\**THis is style**\
+ul.topbar li {float: left;}
+
+ul.topbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topbar li a:hover:not(.active) {background-color: darkblue;}
+
+ul.topbar li a.active {background-color: blue;}
+
+ul.topbar li.right {float: right;}
+
+@media screen and (max-width: 600px){
+    ul.topbar li.right, 
+    ul.topbar li {float: none;}
+}
